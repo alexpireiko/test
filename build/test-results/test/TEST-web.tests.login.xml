@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Suit for auth" tests="3" skipped="0" failures="0" errors="0" timestamp="2022-01-12T13:58:02" hostname="Alexs-MacBook-Pro.local" time="23.994">
+  <properties/>
+  <testcase name="Login with invalid password" classname="web.tests.login" time="19.676"/>
+  <testcase name="Login with valid Uname and pass" classname="web.tests.login" time="2.117"/>
+  <testcase name="Login with invalid syntax of Uname" classname="web.tests.login" time="2.198"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#noProviders for further details.
+Starting ChromeDriver 97.0.4692.71 (adefa7837d02a07a604c1e6eff0b3a09422ab88d-refs/branch-heads/4692@{#1247}) on port 58249
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jan 12, 2022 4:58:09 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Jan 12, 2022 4:58:09 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 97, so returning the closest version found: 95
+Jan 12, 2022 4:58:09 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found CDP implementation for version 97 of 95
+]]></system-err>
+</testsuite>
